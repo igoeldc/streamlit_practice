@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0104e75b-c439-4796-a869-c40e00d7e87f" name="Changes" comment="Started Advanced Concepts and updated some formatting">
-      <change beforePath="$PROJECT_DIR$/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/app.py" afterDir="false" />
-    </list>
+    <list default="true" id="0104e75b-c439-4796-a869-c40e00d7e87f" name="Changes" comment="Added Connections" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -73,7 +71,7 @@
       <option name="presentableId" value="Default" />
       <updated>1748951578033</updated>
       <workItem from="1748951579235" duration="146000" />
-      <workItem from="1748951737394" duration="7494000" />
+      <workItem from="1748951737394" duration="7808000" />
     </task>
     <task id="LOCAL-00001" summary="Completed Basic Concepts">
       <option name="closed" value="true" />
@@ -91,7 +89,15 @@
       <option name="project" value="LOCAL" />
       <updated>1749024184206</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Added Connections">
+      <option name="closed" value="true" />
+      <created>1749024606991</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1749024606991</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -100,6 +106,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Completed Basic Concepts" />
     <MESSAGE value="Started Advanced Concepts and updated some formatting" />
-    <option name="LAST_COMMIT_MESSAGE" value="Started Advanced Concepts and updated some formatting" />
+    <MESSAGE value="Added Connections" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added Connections" />
   </component>
 </project>
