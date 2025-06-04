@@ -105,3 +105,7 @@ color = st.color_picker("Color", "#FF0000")
 st.divider()
 st.scatter_chart(st.session_state.df, x="x", y="y", color=color)
 
+st.subheader('Connections')
+conn = st.connection("my_database")
+df = conn.query("select * from my_table")
+st.dataframe(df)

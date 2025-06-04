@@ -4,8 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0104e75b-c439-4796-a869-c40e00d7e87f" name="Changes" comment="Completed Basic Concepts">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="0104e75b-c439-4796-a869-c40e00d7e87f" name="Changes" comment="Started Advanced Concepts and updated some formatting">
       <change beforePath="$PROJECT_DIR$/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/app.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -74,7 +73,7 @@
       <option name="presentableId" value="Default" />
       <updated>1748951578033</updated>
       <workItem from="1748951579235" duration="146000" />
-      <workItem from="1748951737394" duration="7172000" />
+      <workItem from="1748951737394" duration="7494000" />
     </task>
     <task id="LOCAL-00001" summary="Completed Basic Concepts">
       <option name="closed" value="true" />
@@ -84,7 +83,15 @@
       <option name="project" value="LOCAL" />
       <updated>1749022521679</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Started Advanced Concepts and updated some formatting">
+      <option name="closed" value="true" />
+      <created>1749024184206</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1749024184206</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -92,6 +99,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Completed Basic Concepts" />
-    <option name="LAST_COMMIT_MESSAGE" value="Completed Basic Concepts" />
+    <MESSAGE value="Started Advanced Concepts and updated some formatting" />
+    <option name="LAST_COMMIT_MESSAGE" value="Started Advanced Concepts and updated some formatting" />
   </component>
 </project>
