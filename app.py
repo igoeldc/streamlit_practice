@@ -109,3 +109,16 @@ st.subheader('Connections')
 # conn = st.connection("my_database")
 # sql_df = conn.query("select * from my_table")
 # st.dataframe(sql_df)
+
+
+st.header('Additional Features')
+
+st.subheader('Pages')
+main_page = st.Page("main_page.py", title="Main Page", icon="🎈")
+page_2 = st.Page("page_2.py", title="Page 2", icon="❄️")
+page_3 = st.Page("page_3.py", title="Page 3", icon="🎉")
+pg = st.navigation([main_page, page_2, page_3])
+pg.run()
+
+st.subheader('Static File Serving')
+st.image('static/cat.png')
