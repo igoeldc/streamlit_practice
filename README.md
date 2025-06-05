@@ -2,30 +2,6 @@
 
 This is a **Streamlit** web app showcasing various interactive UI elements, data visualizations, and advanced Streamlit features. It's intended as a hands-on practice project for learning and demonstrating Streamlit capabilities.
 
-## 📦 Features
-
-### Basic Concepts
-
-- **DataFrame Display**: Shows static and styled pandas DataFrames.
-- **Charts**: Line chart and map using random data.
-- **Widgets**:
-  - Slider for calculating square values
-  - Text input
-  - Checkbox to toggle data
-  - Selectbox for options
-- **Sidebar UI**: Includes a selectbox and a slider.
-- **Layout**: Two-column layout with buttons and radio selections.
-- **Progress Bar**: Simulates iterative progress updates.
-
-### Advanced Concepts
-
-- **Caching**: Placeholder for long-running cached functions.
-- **Session State**: Tracks interactions like page reload count.
-- **Color Picker**: Interactive point coloring in a scatter chart.
-- **Connections**: (Commented out) Example for database querying.
-- **Pages**: Navigates across multiple pages (e.g., `main_page.py`, `page_2.py`, etc.)
-- **Static Files**: Displays an image from the `static` folder.
-
 ## 🚀 Getting Started
 
 ### Prerequisites
@@ -47,15 +23,49 @@ pip install -r requirements.txt
 python -m streamlit run app.py
 ```
 
+## 🧭 App Categories Overview
+
+This project contains four types of Streamlit apps, each demonstrating different capabilities and use cases:
+
+### 1. Fundamentals
+These scripts demonstrate fundamental Streamlit concepts like layout, widgets, and user interaction. Includes:
+- `app.py`, `main_page.py`, `page_2.py`, `page_3.py`
+
+### 2. Single Page App
+A standalone visualization app:
+- `uber_pickups.py`: Visualizes NYC Uber pickups using interactive maps and filters.
+
+### 3. Multipage App
+A modular app using Streamlit's multipage support:
+- `Hello.py`: Entry point.
+- `pages/`: Demos on plotting, mapping, and data table interaction.
+
+### 4. Chat and LLM Apps
+Demonstrates interactive NLP/chat capabilities using the OpenAI API:
+- `1-echo_bot.py`: A basic chatbot that repeats back the user's message.
+- `2-simple_chat.py`: Adds multi-turn memory to the chatbot using session state.
+- `3-chatgpt_clone.py`: A ChatGPT-style interface with streaming responses and model selection.
+
 ## 📁 Project Structure
 
 ```text
 .
-├── app.py
-├── main_page.py
-├── page_2.py
-├── page_3.py
-├── static/
-│   └── cat.png
+├── 1. Fundamentals/
+│   ├── app.py
+│   ├── main_page.py
+│   ├── page_2.py
+│   └── page_3.py
+├── 2. Single Page App/
+│   └── uber_pickups.py
+├── 3. Multipage App/
+│   ├── Hello.py
+│   └── pages/
+│       ├── 1_📈_Plotting_Demo.py
+│       ├── 2_🌍_Mapping_Demo.py
+│       └── 3_📊_DataFrame_Demo.py
+├── 4. Chat and LLM Apps/
+│   ├── 1-echo_bot.py
+│   ├── 2-simple_chat.py
+│   └── 3-chatgpt_clone.py
 └── requirements.txt
 ```
